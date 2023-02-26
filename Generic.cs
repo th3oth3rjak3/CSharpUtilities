@@ -1,10 +1,10 @@
 namespace Utilities;
 
-public class StringFunctions
+public static class Generic
 {
     /// <summary>
     /// Prints a string to the console.
     /// </summary>
     /// <param name="s">The string to print.</param>
-    public static void Print(String s) => Console.WriteLine(s);
+    public static void Print<T>(T val) => Console.WriteLine(val);
 }
